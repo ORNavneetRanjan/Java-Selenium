@@ -1,0 +1,55 @@
+Selenium : It's a web based automation tool/library.
+
+Types of applications
+-----------------------
+1) web applications: need internet to operate, e.g. Facebook, Instagram.
+2) Desktop applications: don't need internet to operate, e.g. Calculator, Ms word, Ms excel.
+3) Mobile applications
+
+Advantages
+-----------
+1> Open source tool & free
+2> Supports Multiple operating systems
+3> Supports multiple browsers (cross browser testing)
+4> Supports multiple languages(java, python, c#, Ruby, js etc)
+5) Integrate third party tools into selenium.
+
+Limitations
+------------
+1) Cannot support windows based applications(Autoit, Sikuli, Robot APT)
+2) Reporting not supported( TestNG, Extent reports)
+3) cannot support excel files(Apache poi)
+4) graphs , captua
+
+
+Java Programing
+--------------
+Java : Object Oriented Programing languages
+
+types of programing languages
+----------------------------
+1> structured: C, python
+2> Object based: VB, VBScript, python
+3> Object Oriented: C++, Java, C#, python
+
+Oops
+------
+1> Class
+2> Object
+3> Inheritance
+4> Polymorphism
+5> Abstraction
+6> Encapsulation
+
+Features
+--------
+1> Platform independent
+2> Case Sensitive
+
+Components
+------------
+1. JDK : Java Development Kit (full-featured software development kit for java, including everything
+    in JRE plus tools for developing, debugging, and monitoring Java applications).
+2. JRE : Java Runtime Environment (provides the libraries and JVM requried to run Java applications)
+3. JVM : Java Virtual Machine ( Enables your computer to run Java programs by converting
+    bytecode into machine-specific code)
