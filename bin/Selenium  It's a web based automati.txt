@@ -53,3 +53,24 @@ Components
 2. JRE : Java Runtime Environment (provides the libraries and JVM requried to run Java applications)
 3. JVM : Java Virtual Machine ( Enables your computer to run Java programs by converting
     bytecode into machine-specific code)
+
+Class and Objects
+------------------
+- Class is a collection of varibales and methods.
+- Object is an instance of class.
+- eg: Animal is a class and Dog, Cow, Lion are objects.
+
+Class
+------
+1. Class is collection of variables and methods.
+2. Class is logical entry and blueprint.
+3. Will not occupy any space in memory.
+
+Object
+-------
+1. Object is an instance of class/ object will be created by using class.
+2. Object is a physical entity.
+3. Object takes space in memory.
+4. we can create multiple objects from a single class and all are independent of each other.
+
+
