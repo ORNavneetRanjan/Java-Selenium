@@ -1,0 +1,15 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Compiled binaries
+bin/
+target/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
