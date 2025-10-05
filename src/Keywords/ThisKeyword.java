@@ -19,7 +19,6 @@ public class ThisKeyword {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ThisKeyword tk = new ThisKeyword(12, "Navneet");
 		tk.func();
 		
