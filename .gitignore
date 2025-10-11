@@ -1,15 +1,66 @@
-# Eclipse specific files
+# ============================================
+# 📁 Eclipse Specific Files
+# ============================================
 .classpath
 .project
 .settings/
 
-# Compiled binaries
-bin/
-target/
+# ============================================
+# 📦 IntelliJ IDEA Specific Files
+# ============================================
+.idea/
+*.iml
+out/
 
-# Logs
+# ============================================
+# 🧱 Build Directories (Java / Maven)
+# ============================================
+target/
+bin/
+build/
+
+# ============================================
+# 🧪 Test Output / Reports
+# ============================================
+surefire-reports/
+test-output/
+logs/
 *.log
 
-# OS-specific files
+# ============================================
+# 🧰 Selenium Drivers
+# ============================================
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+IEDriverServer.exe
+
+# ============================================
+# ⚙️ Maven Wrapper
+# ============================================
+.mvn/
+mvnw
+mvnw.cmd
+
+# ============================================
+# 💾 OS-specific Files
+# ============================================
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ============================================
+# 🧠 Environment / Config / Temp Files
+# ============================================
+*.env
+*.tmp
+*.swp
+*.bak
+*.class
+
+# ============================================
+# 🚫 IDE Crash / Workspace Files
+# ============================================
+.recommenders/
+.metadata/
+*.launch

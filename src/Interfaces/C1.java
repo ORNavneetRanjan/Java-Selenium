@@ -8,6 +8,10 @@ public class C1 extends InterfaceDemo implements I1,  I2 {
 		System.out.println(I1.x);
 	}
 	
+	public void func() {
+		
+	}
+	
 	public void m2() {
 		I1.super.m();
 		System.out.println(I2.y);
