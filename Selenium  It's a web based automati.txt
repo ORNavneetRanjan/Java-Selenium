@@ -73,4 +73,17 @@ Object
 3. Object takes space in memory.
 4. we can create multiple objects from a single class and all are independent of each other.
 
+Selenium web Driver Locators
+-----------------------------
+-> As part of Automation, Selenium Performs action(such as click, typing) on the Page HTML elements.
+-> The locators are the way to identify an HTML element on a web page.
+-> Selenium webDriver uses any of the below locators to identify the elements on the page an perforoms the Action.
+    1. ID
+    2. Xpath
+    3. css selector
+    4. Name
+    5. Class Name
+    6. Tag Name
+    7. Link Text
+    8. Partial Link Text
 
