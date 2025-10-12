@@ -87,3 +87,28 @@ Selenium web Driver Locators
     7. Link Text
     8. Partial Link Text
 
+CSS selector
+------------
+-> Class name : tagname.classname -> button.signInBtn -> .error
+-> id -> tagname#id -> input#username
+-> tagname[attribute='value'] : input[placeholder='username']
+-> if mutiple elements have same attribute than we access through indexing
+    tagname[attribute='value']:nth-child(index)
+-> for traverssing through parent child
+    "ParentTagname childTagname"
+-> for regular expression
+    input[type*='pass'] : this return element contains the word 'pass' in its type attribute
+
+
+
+
+Xpath
+------
+-> //tagname[@attribute='value'] : //input[@placeholder='username']
+-> if mutiple elements have same attribute than we access through indexing
+    //tagname[@attribute='value'] -> "//input[@type='text'][1]"
+-> for traverssing through parent child
+    //parentTganem/childTagname/childTagname...
+-> for regular expression
+    //button[contains(@class, 'submit')] 
+
