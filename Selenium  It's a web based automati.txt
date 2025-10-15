@@ -111,4 +111,9 @@ Xpath
     //parentTganem/childTagname/childTagname...
 -> for regular expression
     //button[contains(@class, 'submit')] 
+-> for aceesing siblings (usefull when no unique selector is present):
+	//header/div/button[1]/following-sibling::button[1]
+	**indexing starts from 1**
+-> for aceesing child to parent
+	//header/div/button[1]/parent::div
 
