@@ -104,14 +104,14 @@ CSS selector
 
 Xpath
 ------
--> //tagname[@attribute='value'] : //input[@placeholder='username']
--> if mutiple elements have same attribute than we access through indexing
-    //tagname[@attribute='value'] -> "//input[@type='text'][1]"
--> for traverssing through parent child
-    //parentTganem/childTagname/childTagname...
+-> //tag name[@attribute='value'] : //input[@placeholder='username']
+-> if multiple elements have same attribute than we access through indexing
+    //tag name[@attribute='value'] -> "//input[@type='text'][1]"
+-> for traversing through parent child
+    //parentTagName/childTagName/childTagName...
 -> for regular expression
     //button[contains(@class, 'submit')] 
--> for aceesing siblings (usefull when no unique selector is present):
+-> for accessing siblings (useful when no unique selector is present):
 	//header/div/button[1]/following-sibling::button[1]
 	**indexing starts from 1**
 -> for aceesing child to parent
