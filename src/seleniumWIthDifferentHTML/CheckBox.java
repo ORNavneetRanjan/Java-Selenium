@@ -1,10 +1,11 @@
 package seleniumWIthDifferentHTML;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.testng.Assert;
 import java.util.List;
 
 public class CheckBox {
@@ -16,14 +17,16 @@ public class CheckBox {
         Thread.sleep(1000);
 
         //css selector regx
-        System.out.println(driver.findElement(By.cssSelector("input[id*='IndArm'")).isSelected());
+        Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='IndArm'")).isSelected(), "The button is not clicked");
         driver.findElement(By.cssSelector("input[id*='IndArm'")).click();
-        System.out.println(driver.findElement(By.cssSelector("input[id*='IndArm'")).isSelected());
+        Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='IndArm'")).isSelected(),
+                "The checkbox is clicked now ");
 
         //find total number of check box in a whole html page
         List<WebElement> list = driver.findElements(By.cssSelector("input[type='checkbox'"));
-        System.out.println("Total number of checkboxs are  " + list.size());
-        System.out.println(list.get(5).getLocation());
+        Assert.assertEquals(6 ,list.size());
+        Assert.assertEquals(list.get(5).getLocation(), new Point(596, 298));
+
 
 
 
