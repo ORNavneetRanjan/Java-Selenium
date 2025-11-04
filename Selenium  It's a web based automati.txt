@@ -117,3 +117,17 @@ Xpath
 -> for aceesing child to parent
 	//header/div/button[1]/parent::div
 
+Synchronization
+---------------------
+1. Implicit Wait: wait for x seconds before you throw exception, keeps visiting the dom and finding the required element.
+    If the element is found the program comes out of waiting and move ahead with other executions , if the element is not
+    found it throws an error after x second.
+-> Wait for everything for x seconds, so we couldn't catch those cases where the component should load in x-5 seconds but
+    its loading of x-8 seconds.
+
+2. Explicit Wait: To overcome the limitations of implicit wait we define waits to the particular component
+-> Both implicit and explicit wait are equally important for synchronization in automation as we need both kind of waits in
+    different situations.
+
+3. Thread.sleep: Pause the whole execution for x seconds even the results are loading or not, its part of java not selenium
+-> Not preferable for its absurd nature
