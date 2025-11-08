@@ -131,3 +131,10 @@ Synchronization
 
 3. Thread.sleep: Pause the whole execution for x seconds even the results are loading or not, its part of java not selenium
 -> Not preferable for its absurd nature
+
+4. Fluent wait: It finds the web element repeatedly at regular intervals of time until the timeout or till the object get found.
+-> Unlike WebDriver wait, we need to build Customized wait methods based on condition
+
+** Both WebDriverWait and FluentWait classes implements Wait Interface **
+
+
