@@ -21,8 +21,6 @@ public class ThisKeyword {
 	public static void main(String[] args) {
 		ThisKeyword tk = new ThisKeyword(12, "Navneet");
 		tk.func();
-		
-
 	}
 
 }

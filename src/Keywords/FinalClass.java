@@ -8,8 +8,7 @@ final class A {
 }
 
 /*
- * cannot extends a final class
-class B extends A {
+ * cannot extend a final class B extends A {
 	
 }
 */

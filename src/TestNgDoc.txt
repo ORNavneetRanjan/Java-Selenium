@@ -1,0 +1,25 @@
+Test suite -> test folder (module) -> test cases
+
+You can define multiple test cases from the single class.
+You can modularize the testcases based upon functionality and trigger them accordingly.
+You can also customize the selection of particular function to be included or excluded.
+
+
+-> include : if include is used in the method section than only those functions will run and other will not run.
+-> exclude: if exclude is present than the suite will run all the functions except the once mentioned in exclude
+
+-> If both used together, include has higher priority and after all the functions included , exclude will be performed on
+    those functions only.
+-> If there are other function as well which are not included than its automatically excluded anyway.
+-> We can also use regex in include and exclude methods
+
+**-> The order of execution for same level of test depends on alphabetical order.
+
+        Key takeaways (remember this)
+=============================================
+1. @Parameters must match method arguments
+2. Parameters are not auto-injected
+3. <test> parameters override <suite>
+4. Private @Test methods will NOT run
+5. @Optional can be used to avoid failures
+6. We have to provide parameter above every function that we use the arguments.
